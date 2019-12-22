@@ -1,0 +1,9 @@
+-------------------------------------------------------------------------------
+Test set: ApplicationFlowTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.039 s <<< FAILURE! - in ApplicationFlowTest
+ApplicationFlowTest  Time elapsed: 0.036 s  <<< ERROR!
+java.sql.SQLException: The url cannot be null
+	at ApplicationFlowTest.setDbConfig(ApplicationFlowTest.java:46)
+	at ApplicationFlowTest.init(ApplicationFlowTest.java:17)
+

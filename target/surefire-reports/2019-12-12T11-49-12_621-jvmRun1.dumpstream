@@ -1,0 +1,35 @@
+# Created at 2019-12-12T11:49:22.911
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: null
+java.io.EOFException
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:397)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.base/java.lang.Thread.run(Thread.java:830)
+
+
+# Created at 2019-12-12T11:49:25.184
+Unexpected IOException: 5,1,CreateApplicationTest,createApplication,null,null,null
+
+
+# Created at 2019-12-12T11:49:30.450
+Unexpected IOException with stream: {"elementKey":"P247_NewApplication_1","fields":[]}
+
+# Created at 2019-12-12T11:49:30.469
+Unexpected IOException with stream: 
+
+
+# Created at 2019-12-12T11:49:47.999
+Unexpected IOException: 6,1,CreateApplicationTest,createApplication,null,null,null
+
+
+# Created at 2019-12-12T11:49:48.013
+Unexpected IOException: 5,1,CreateApplicationTest,submitApplication,null,null,null
+
+
+# Created at 2019-12-12T11:49:48.033
+Unexpected IOException with stream: {"elementKey":"P520_Submit_1","fields":[{"values":[""],"key":"P520_Applicant-DateOfBirth_1"},{"values":["text"],"key":"P520_Applicant-SocialSecurity_1"},{"values":["m"],"key":"P520_Applicant-Gender_1"},{"values":["text"],"key":"P520_Applicant-LastName_1"},{"values":[""],"key":"P520_Applicant-Education_1"},{"values":["text"],"key":"P520_Applicant-Initials_1"},{"values":[""],"key":"P520_Employment-Company_1"},{"values":[""],"key":"P520_Employment-Phone_1"},{"values":["DenBosch"],"key":"P520_Applicant-City_1"},{"values":["10000"],"key":"P520_Application-DesiredCreditLimit_1"},{"values":[""],"key":"P520_Application-TypeOfCard_1"},{"values":[""],"key":"P520_Applicant-Email_1"},{"values":["text"],"key":"P520_Applicant-Phone_1"},{"values":[""],"key":"P520_Employment-YearsInCurrentEmployment_1"},{"values":[""],"key":"P520_Employment-CurrentPosition_1"},{"values":[""],"key":"P520_Employment-YearlyIncome_1"}]}
+
+# Created at 2019-12-12T11:49:48.047
+Unexpected IOException with stream: 
+
+
